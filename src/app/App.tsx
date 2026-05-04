@@ -177,10 +177,12 @@ export default function App() {
             className="text-center space-y-10 max-w-4xl mx-auto relative z-10"
           >
             <p className="text-3xl md:text-5xl lg:text-5xl font-bold tracking-tighter leading-tight">Alina Grinblat уже прожила этот опыт <span className="text-[#86868b]">и принесла его в музыку для тебя</span></p>
-<a href="https://music.yandex.ru/artist/25452896?utm_source=web&utm_medium=copy_link" target="_blank"
-className="inline-block px-8 py-4 rounded-full bg-[#1d1d1f]
-border border-transparent hover: bg- [#f5f5f7]
-hover: text-black text-[#f5f5f7] transition all duration-300
+<a
+href="https://music.yandex.ru/artist/25452896?utm_source=we
+b&utm_medium=copy_link" target="_blank" rel="noopener
+noreferrer" className="inline-block px-8 py-4 rounded-full
+bg- [#1d1d1f] border border-transparent hover: bg-[#f5f5f7]
+hover: text-black text-[#f5f5f7] transition-all duration-300
 font-semibold text-lg tracking-tight">Включай состояние</a>          </motion.div>
         </div>
       </section>
